@@ -1,4 +1,4 @@
-// First Method by using Props we need BlogCard1child
+
 import pic1 from "../assets/pic1.jpg"
 import pic2 from "../assets/pic2.jpg";
 import pic3 from "../assets/pic3.jpg";
