@@ -1,4 +1,5 @@
 
+
 import pic1 from "../assets/pic1.jpg"
 import pic2 from "../assets/pic2.jpg";
 import pic3 from "../assets/pic3.jpg";
@@ -7,43 +8,13 @@ import pic5 from "../assets/pic5.jpg";
 import pic6 from "../assets/pic6.jpg";
 import pic7 from "../assets/pic7.jpg";
 import BlogCard1Child from "./BlogCard1Child.jsx";
-import logo2 from "../assets/logo2.png";
 
 
-function BlogCard1() {
-
-
-   return (
+function ServicesCard() {
+  return (
+    
       <>
-         <img src={logo2} alt="logo" className=" w-30 h-20 py-5 px-3"></img>
-
-         <h2 className="text-3xl text-black font-bold text-center ">Wellcome to our website's home page </h2>
-
-
-         <div
-            className="min-h-screen-w-20 h-70 lg:w-full lg:h-150 flex items-center justify-center mt-10 "
-            style={{ backgroundImage: `url(${pic1})`, backgroundSize: "cover" }}
-         >
-
-
-            <div className="text-black text-center py-10">
-               <h1> Our services</h1><br />
-               <h2 className="text-5xl text-center max-w-screen-lg mx-auto px-4 px-20 ">Professional Cleaning</h2>
-               <p className=" py-4">Lorem ipsum dolor sit amet, consetetur
-                  </p>
-                  <p>sadipscing elitr, sed diam
-                  nonumy eirmod
-                  </p> 
-                  <p>tempor invidunt
-                     ut labore et dolore
-                     </p>
-                     <p>magna aliquyam erat, sed diam voluptua.</p>
-
-
-            </div>
-         </div>
-
-
+  
          <div>
             <h1 className="text-5xl text-center max-w-screen-lg mx-auto px-4 font-bold py-15 ">Our services</h1>
          </div>
@@ -77,21 +48,17 @@ function BlogCard1() {
                <BlogCard1Child title="Window Cleaning" description="Routine cleaning of living spaces, including dusting, 
               vacuuming, and surface cleaning" img={pic7} />
             </div>
-            <div className=" bg-gray-200  rounded-xl h-65">
+            <div className=" bg-gray-200  rounded-xl h-68">
                <BlogCard1Child title="Carpet and Upholstery Cleaning" description="Routine cleaning of living spaces, including dusting, 
                vacuuming, and surface cleaning"img={pic6} />
             </div>
+            </div>
 
 
-         </div>
-
-
-
-      </>
-   )
+        
+    
+    </>
+  )
 }
 
-export default BlogCard1
-
-
-
+export default ServicesCard

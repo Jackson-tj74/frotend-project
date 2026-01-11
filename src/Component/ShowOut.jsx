@@ -4,9 +4,12 @@ import Footer from "./Footer"
 function ShowOut() {
   return (
     <>
-    <Footer />
     <NavBar />
     <Outlet />
+   <Footer />
+   
+    
+    
     </>
   )
 }
